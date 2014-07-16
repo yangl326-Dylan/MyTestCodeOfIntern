@@ -1471,21 +1471,7 @@ public class Solution2 {
 			 return ret;
 		 }
 	 }
-	 /**
-	  * Given two binary strings, return their sum (also a binary string).
-	  * @param a
-	  * @param b
-	  * @return
-	  * @author huangting
-	  * @date 2014-7-9
-	  */
-	 public String addBinary(String a, String b) {
-		 //the input is not legal
-	     if(a == null || b==null || a.length()==0 || b.length()==0)
-	    	 return null;
-	     StringBuilder sb = new StringBuilder();
-	     
-	 }
+	
 	public static void main(String[] argv){
 		Solution2 s = new Solution2();
 		String A = " ";
